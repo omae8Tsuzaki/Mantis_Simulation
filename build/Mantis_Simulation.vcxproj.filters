@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\t-tsu\Documents\PROGRAM_FILE\workVSC\Mantis_Simulation\Mantis_Simulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\t-tsu\Documents\PROGRAM_FILE\workVSC\Mantis_Simulation\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A31FA50E-7891-34AD-982E-7D82B0165309}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

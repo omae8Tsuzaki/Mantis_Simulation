@@ -1,0 +1,255 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+      2023/09/13 16:32:36 にビルドを開始しました。
+      Included response file: C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+      
+      ノード 1 上のプロジェクト "C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\3.26.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj" (既定のターゲット)。
+      PrepareForBuild:
+        ディレクトリ "Debug\\" を作成しています。
+        ディレクトリ "Debug\\CompilerIdC.tlog\\" を作成しています。
+      InitializeBuildStatus:
+        "AlwaysCreate" が指定されたため "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" を作成しています。
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\3.26.0-rc3\\CompilerIdC\\CompilerIdC.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\3.26.0-rc3\\CompilerIdC\\CompilerIdC.exe" "C:\\vcpkg\\installed\\x64-windows\\debug\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' は、内部コマンドまたは外部コマンド、
+        操作可能なプログラムまたはバッチ ファイルとして認識されていません。
+        コマンド "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\3.26.0-rc3\\CompilerIdC\\CompilerIdC.exe" "C:\\vcpkg\\installed\\x64-windows\\debug\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"" はコード 9009 で終了しました。
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\3.26.0-rc3\\CompilerIdC\\CompilerIdC.exe" "C:\\vcpkg\\installed\\x64-windows\\debug\\bin" "Debug\\CompilerIdC.tlog\\CompilerIdC.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ファイル "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" を削除しています。
+        "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate" のタッチ タスクを実行しています。
+      プロジェクト "C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\3.26.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj" (既定のターゲット) のビルドが完了しました。
+      
+      ビルドに成功しました。
+          0 個の警告
+          0 エラー
+      
+      経過時間 00:00:01.72
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/t-tsu/Documents/PROGRAM_FILE/workVSC/Mantis_Simulation/build/CMakeFiles/3.26.0-rc3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+      2023/09/13 16:32:38 にビルドを開始しました。
+      Included response file: C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+      
+      ノード 1 上のプロジェクト "C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\3.26.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (既定のターゲット)。
+      PrepareForBuild:
+        ディレクトリ "Debug\\" を作成しています。
+        ディレクトリ "Debug\\CompilerIdCXX.tlog\\" を作成しています。
+      InitializeBuildStatus:
+        "AlwaysCreate" が指定されたため "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" を作成しています。
+      VcpkgTripletSelection:
+        Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\3.26.0-rc3\\CompilerIdCXX\\CompilerIdCXX.exe
+      AppLocalFromInstalled:
+        pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\3.26.0-rc3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\vcpkg\\installed\\x64-windows\\debug\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+        'pwsh.exe' は、内部コマンドまたは外部コマンド、
+        操作可能なプログラムまたはバッチ ファイルとして認識されていません。
+        コマンド "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\3.26.0-rc3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\vcpkg\\installed\\x64-windows\\debug\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"" はコード 9009 で終了しました。
+        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\3.26.0-rc3\\CompilerIdCXX\\CompilerIdCXX.exe" "C:\\vcpkg\\installed\\x64-windows\\debug\\bin" "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.write.1u.tlog" "Debug\\vcpkg.applocal.log"
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ファイル "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" を削除しています。
+        "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate" のタッチ タスクを実行しています。
+      プロジェクト "C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\3.26.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (既定のターゲット) のビルドが完了しました。
+      
+      ビルドに成功しました。
+          0 個の警告
+          0 エラー
+      
+      経過時間 00:00:01.22
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/t-tsu/Documents/PROGRAM_FILE/workVSC/Mantis_Simulation/build/CMakeFiles/3.26.0-rc3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/t-tsu/Documents/PROGRAM_FILE/workVSC/Mantis_Simulation/build/CMakeFiles/CMakeScratch/TryCompile-o6ok2b"
+      binary: "C:/Users/t-tsu/Documents/PROGRAM_FILE/workVSC/Mantis_Simulation/build/CMakeFiles/CMakeScratch/TryCompile-o6ok2b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/t-tsu/Documents/PROGRAM_FILE/workVSC/Mantis_Simulation/build/CMakeFiles/CMakeScratch/TryCompile-o6ok2b
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_0468a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        2023/09/13 16:32:40 にビルドを開始しました。
+        Included response file: C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        ノード 1 上のプロジェクト "C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o6ok2b\\cmTC_0468a.vcxproj" (既定のターゲット)。
+        PrepareForBuild:
+          ディレクトリ "cmTC_0468a.dir\\Debug\\" を作成しています。
+          ディレクトリ "C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o6ok2b\\Debug\\" を作成しています。
+          ディレクトリ "cmTC_0468a.dir\\Debug\\cmTC_0468a.tlog\\" を作成しています。
+        InitializeBuildStatus:
+          "AlwaysCreate" が指定されたため "cmTC_0468a.dir\\Debug\\cmTC_0468a.tlog\\unsuccessfulbuild" を作成しています。
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0468a.dir\\Debug\\\\" /Fd"cmTC_0468a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft(R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0468a.dir\\Debug\\\\" /Fd"cmTC_0468a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o6ok2b\\Debug\\cmTC_0468a.exe" /INCREMENTAL /ILK:"cmTC_0468a.dir\\Debug\\cmTC_0468a.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/t-tsu/Documents/PROGRAM_FILE/workVSC/Mantis_Simulation/build/CMakeFiles/CMakeScratch/TryCompile-o6ok2b/Debug/cmTC_0468a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/t-tsu/Documents/PROGRAM_FILE/workVSC/Mantis_Simulation/build/CMakeFiles/CMakeScratch/TryCompile-o6ok2b/Debug/cmTC_0468a.lib" /MACHINE:X64  /machine:x64 cmTC_0468a.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_0468a.vcxproj -> C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o6ok2b\\Debug\\cmTC_0468a.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o6ok2b\\Debug\\cmTC_0468a.exe" "C:\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_0468a.dir\\Debug\\cmTC_0468a.tlog\\cmTC_0468a.write.1u.tlog" "cmTC_0468a.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' は、内部コマンドまたは外部コマンド、
+          操作可能なプログラムまたはバッチ ファイルとして認識されていません。
+          コマンド "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o6ok2b\\Debug\\cmTC_0468a.exe" "C:\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_0468a.dir\\Debug\\cmTC_0468a.tlog\\cmTC_0468a.write.1u.tlog" "cmTC_0468a.dir\\Debug\\vcpkg.applocal.log"" はコード 9009 で終了しました。
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o6ok2b\\Debug\\cmTC_0468a.exe" "C:\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_0468a.dir\\Debug\\cmTC_0468a.tlog\\cmTC_0468a.write.1u.tlog" "cmTC_0468a.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          ファイル "cmTC_0468a.dir\\Debug\\cmTC_0468a.tlog\\unsuccessfulbuild" を削除しています。
+          "cmTC_0468a.dir\\Debug\\cmTC_0468a.tlog\\cmTC_0468a.lastbuildstate" のタッチ タスクを実行しています。
+        プロジェクト "C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o6ok2b\\cmTC_0468a.vcxproj" (既定のターゲット) のビルドが完了しました。
+        
+        ビルドに成功しました。
+            0 個の警告
+            0 エラー
+        
+        経過時間 00:00:01.21
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/t-tsu/Documents/PROGRAM_FILE/workVSC/Mantis_Simulation/build/CMakeFiles/CMakeScratch/TryCompile-7gli4v"
+      binary: "C:/Users/t-tsu/Documents/PROGRAM_FILE/workVSC/Mantis_Simulation/build/CMakeFiles/CMakeScratch/TryCompile-7gli4v"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/t-tsu/Documents/PROGRAM_FILE/workVSC/Mantis_Simulation/build/CMakeFiles/CMakeScratch/TryCompile-7gli4v
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a2d89.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+        2023/09/13 16:32:42 にビルドを開始しました。
+        Included response file: C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\MSBuild\\Current\\Bin\\amd64\\MSBuild.rsp
+        
+        ノード 1 上のプロジェクト "C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7gli4v\\cmTC_a2d89.vcxproj" (既定のターゲット)。
+        PrepareForBuild:
+          ディレクトリ "cmTC_a2d89.dir\\Debug\\" を作成しています。
+          ディレクトリ "C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7gli4v\\Debug\\" を作成しています。
+          ディレクトリ "cmTC_a2d89.dir\\Debug\\cmTC_a2d89.tlog\\" を作成しています。
+        InitializeBuildStatus:
+          "AlwaysCreate" が指定されたため "cmTC_a2d89.dir\\Debug\\cmTC_a2d89.tlog\\unsuccessfulbuild" を作成しています。
+        VcpkgTripletSelection:
+          Using triplet "x64-windows" from "C:\\vcpkg\\installed\\x64-windows\\"
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\CL.exe /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a2d89.dir\\Debug\\\\" /Fd"cmTC_a2d89.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft(R) C/C++ Optimizing Compiler Version 19.35.32217.1 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCXXCompilerABI.cpp
+          cl /c /I"C:\\vcpkg\\installed\\x64-windows\\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a2d89.dir\\Debug\\\\" /Fd"cmTC_a2d89.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7gli4v\\Debug\\cmTC_a2d89.exe" /INCREMENTAL /ILK:"cmTC_a2d89.dir\\Debug\\cmTC_a2d89.ilk" /NOLOGO /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\debug\\lib" /LIBPATH:"C:\\vcpkg\\installed\\x64-windows\\debug\\lib\\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\\vcpkg\\installed\\x64-windows\\debug\\lib\\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/t-tsu/Documents/PROGRAM_FILE/workVSC/Mantis_Simulation/build/CMakeFiles/CMakeScratch/TryCompile-7gli4v/Debug/cmTC_a2d89.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/t-tsu/Documents/PROGRAM_FILE/workVSC/Mantis_Simulation/build/CMakeFiles/CMakeScratch/TryCompile-7gli4v/Debug/cmTC_a2d89.lib" /MACHINE:X64  /machine:x64 cmTC_a2d89.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_a2d89.vcxproj -> C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7gli4v\\Debug\\cmTC_a2d89.exe
+        AppLocalFromInstalled:
+          pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7gli4v\\Debug\\cmTC_a2d89.exe" "C:\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_a2d89.dir\\Debug\\cmTC_a2d89.tlog\\cmTC_a2d89.write.1u.tlog" "cmTC_a2d89.dir\\Debug\\vcpkg.applocal.log"
+          'pwsh.exe' は、内部コマンドまたは外部コマンド、
+          操作可能なプログラムまたはバッチ ファイルとして認識されていません。
+          コマンド "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7gli4v\\Debug\\cmTC_a2d89.exe" "C:\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_a2d89.dir\\Debug\\cmTC_a2d89.tlog\\cmTC_a2d89.write.1u.tlog" "cmTC_a2d89.dir\\Debug\\vcpkg.applocal.log"" はコード 9009 で終了しました。
+          "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\\vcpkg\\scripts\\buildsystems\\msbuild\\applocal.ps1" "C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7gli4v\\Debug\\cmTC_a2d89.exe" "C:\\vcpkg\\installed\\x64-windows\\debug\\bin" "cmTC_a2d89.dir\\Debug\\cmTC_a2d89.tlog\\cmTC_a2d89.write.1u.tlog" "cmTC_a2d89.dir\\Debug\\vcpkg.applocal.log"
+        FinalizeBuildStatus:
+          ファイル "cmTC_a2d89.dir\\Debug\\cmTC_a2d89.tlog\\unsuccessfulbuild" を削除しています。
+          "cmTC_a2d89.dir\\Debug\\cmTC_a2d89.tlog\\cmTC_a2d89.lastbuildstate" のタッチ タスクを実行しています。
+        プロジェクト "C:\\Users\\t-tsu\\Documents\\PROGRAM_FILE\\workVSC\\Mantis_Simulation\\build\\CMakeFiles\\CMakeScratch\\TryCompile-7gli4v\\cmTC_a2d89.vcxproj" (既定のターゲット) のビルドが完了しました。
+        
+        ビルドに成功しました。
+            0 個の警告
+            0 エラー
+        
+        経過時間 00:00:01.43
+        
+      exitCode: 0
+...
