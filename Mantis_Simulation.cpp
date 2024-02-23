@@ -6,9 +6,6 @@
 
 using namespace cv;
 
-//バターワースフィルタ抜き
-
-
 //四角い重みのフィルタを作成
 //入力画像、出力画像、カーネル(出力)、カーネルサイズ
 void Sq_filter(Mat& input, Mat& output, Mat& filter_8U, int ksize) {
